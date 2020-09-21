@@ -1,0 +1,15 @@
+Multiprocessing Queue :
+
+import multiprocessing
+q=multiprocessing.Queue()
+
+> Lives in Shared Memory
+> Used to share data between processes
+
+Queue Module :
+
+import queue
+q= queue.Queue()
+
+> Lives in In-process memory
+> Used to share data between threads
